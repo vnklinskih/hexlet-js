@@ -8,4 +8,9 @@ _.capitalize('hello'); // Hello
 
 console.log('Hello, Hexlet!');
 
-console.log(_.last(['one', 'two']));
+// импорт модиф. функции last из библ. lodash
+import getlastNum from './src/index.js';
+
+console.log('Какой последний символ массива?');
+const answer = getlastNum();
+console.log(`Последний символ массива: ${answer}`);
