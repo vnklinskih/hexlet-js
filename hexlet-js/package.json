@@ -1,0 +1,32 @@
+{
+  "name": "hexlet",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Мой первый проект на Хекслете",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VNedyhin",
+  "license": "ISC",
+  "dependencies": {
+    "hexo": "^7.3.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "^1.0.0",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.9.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3"
+  }
+}
