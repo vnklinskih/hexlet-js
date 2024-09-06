@@ -8,4 +8,4 @@ export default (Num) => {
   return lastNum;
 };
 
-//console.log(_.last(['one', 'two']));
+// console.log(_.last(['one', 'two']));

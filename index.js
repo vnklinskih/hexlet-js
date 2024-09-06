@@ -1,5 +1,8 @@
 import _ from 'lodash';
 
+// импорт модиф. функции last из библ. lodash
+import getlastNum from './src/index.js';
+
 // Пересечение массивов
 _.intersection([2, 1], [2, 3]); // => [2]
 
@@ -7,9 +10,6 @@ _.intersection([2, 1], [2, 3]); // => [2]
 _.capitalize('hello'); // Hello
 
 console.log('Hello, Hexlet!');
-
-// импорт модиф. функции last из библ. lodash
-import getlastNum from './src/index.js';
 
 console.log('Какой последний символ массива?');
 const answer = getlastNum();
