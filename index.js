@@ -14,3 +14,5 @@ import getlastNum from './src/index.js';
 console.log('Какой последний символ массива?');
 const answer = getlastNum();
 console.log(`Последний символ массива: ${answer}`);
+
+console.log('Я уже заебался');
